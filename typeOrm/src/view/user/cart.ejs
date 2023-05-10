@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+
+<head>
+    <%-include('../partial/head')%>>
+</head>
+<header class="header_area sticky-header">
+    <div class="main_menu">
+        <nav class="navbar navbar-expand-lg navbar-light main_box">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <a class="navbar-brand logo_h" href="/"><img src="img/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav menu_nav ml-auto">
+                        <li class="nav-item active"><a class="nav-link" href="/">Home</a></li>
+                        <li class="nav-item submenu dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                               aria-expanded="false">Shop</a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item"><a class="nav-link" href="/productUser">Shop Category</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Shopping CartDetail</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item submenu dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                               aria-expanded="false">Pages</a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item"><a class="nav-link" href="/login">Log Out</a></li>
+
+                            </ul>
+                        </li>
+
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="nav-item"><a href="#" class="cart"><span class="ti-bag"></span></a></li>
+                        <li class="nav-item">
+                            <button class="search"><span class="lnr lnr-magnifier" id="search"></span></button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="search_input sticky-header" id="search_input_box">
+        <div class="container">
+            <form class="d-flex justify-content-between" action="/search" method="get">
+                <input type="text" class="form-control" id="search_input" placeholder="Search Here" name="searchBox">
+                <button type="submit" class="btn"></button>
+                <span class="lnr lnr-cross" id="close_search" title="Close Search"></span>
+            </form>
+        </div>
+    </div>
+</header>
+<body>
+
+<!-- Start Header Area -->
+
+<!-- End Header Area -->
+
+<!-- Start Banner Area -->
+<section class="banner-area organic-breadcrumb">
+    <div class="container">
+        <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+            <div class="col-first">
+                <h1>Shopping CartDetail</h1>
+                <nav class="d-flex align-items-center">
+                    <a href="index.html">Home<span class="lnr lnr-arrow-right"></span></a>
+                    <a href="category.html">CartDetail</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Banner Area -->
+
+<!--================CartDetail Area =================-->
+<section class="cart_area">
+    <div class="container">
+        <div class="cart_inner">
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th scope="col">Product</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Quantity</th>
+                        <th scope="col">Total</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <%products.forEach(item=>{ %>
+
+                    <tr>
+                        <td>
+                            <div class="media">
+                                <div class="d-flex">
+                                    <img src="<%=item.image%>" alt="" width="250px" height="200px">
+                                </div>
+                                <div class="media-body">
+                                    <p><%=item.name%></p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <h5>$<%=item.price - (item.price*20/100)%></h5>
+                        </td>
+                        <td>
+                            <div class="product_count">
+                                <input type="text" name="qty" id="sst" maxlength="12" value="<%=(item.quantity=1)%>" title="Quantity:"
+                                       class="input-text qty">
+                                <button onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst )) result.value++;return false;"
+                                        class="increase items-count" type="button"><i class="lnr lnr-chevron-up"></i></button>
+                                <button onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst ) &amp;&amp; sst > 0 ) result.value--;return false;"
+                                        class="reduced items-count" type="button"><i class="lnr lnr-chevron-down"></i></button>
+                            </div>
+                        </td>
+                        <td>
+                            <h5>$<%=(item.price - (item.price*20/100)*(item.quantity))%></h5>
+                        </td>
+                    </tr>
+                    <%})%>
+
+                    <tr>
+                        <td>
+
+                        </td>
+                        <td>
+
+                        </td>
+                        <td>
+                            <h5>Subtotal</h5>
+                        </td>
+                        <td>
+                            <h5><%= priceCost%></h5>
+                        </td>
+                    </tr>
+                    <tr class="out_button_area">
+                        <td>
+
+                        </td>
+                        <td>
+
+                        </td>
+                        <td>
+
+                        </td>
+                        <td>
+                            <div class="checkout_btn_inner d-flex align-items-center">
+                                <a class="gray_btn" href="/productUser">Continue Shopping</a>
+                                <a class="primary-btn" href="/buyNow">BUY</a>
+                            </div>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================End CartDetail Area =================-->
+
+<!-- start footer Area -->
+
+<!-- End footer Area -->
+<!-- start footer Area -->
+<%-include('../partial/endHeader')%>>
+<!-- End footer Area -->
+
+
+<%-include('../partial/javacript')%>>
+</body>
+
+</html>

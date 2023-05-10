@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+
+<head>
+    <%- include('../partial/head') %>
+</head>
+
+<body>
+
+<!-- Start Header Area -->
+<%- include('../partial/topHeader') %>
+<!-- End Header Area -->
+
+<!-- Start Banner Area -->
+<section class="banner-area organic-breadcrumb">
+    <div class="container">
+        <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+            <div class="col-first">
+                <h1>Add Product</h1>
+                <nav class="d-flex align-items-center">
+                    <a href="index.html">Home<span class="lnr lnr-arrow-right"></span></a>
+                    <a href="category.html">Add Product</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Banner Area -->
+
+<!--================Contact Area =================-->
+<section class="contact_area section_gap_bottom">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="contact_info">
+
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <form class="row contact_form"  method="post" id="contactForm"
+                      novalidate="novalidate">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="size" name="size" placeholder="size">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="price" name="price" placeholder="price">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="quantity" name="quantity" placeholder="quantity">
+                        </div>
+                        <div class="form-group">
+                            <select name="category" id="">
+                                <% category.map(item=>{ %>
+                                <option value="<%= item.id %>"><%= item.name %></option>
+                                <% }) %>
+                            </select>
+                        </div>
+
+
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group" style="width: 200px;height: 150px">
+                            <input type="file" id="fileButton" onchange="uploadImage(event)">
+                            <div id="imgDiv"></div>
+                            <input type="hidden" class="form-control" id="image" name="image" placeholder="image"
+                                   onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'">
+                        </div>
+                    </div>
+                    <div class="col-md-12 text-right">
+                        <button type="submit" value="submit" class="primary-btn">Add Product</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+<script>
+    // Initialize Firebase
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+        apiKey: "AIzaSyDckaeXiGGuRf1rYZUU6lMrNCG4I9SAPCc",
+        authDomain: "fir-50a62.firebaseapp.com",
+        projectId: "fir-50a62",
+        storageBucket: "fir-50a62.appspot.com",
+        messagingSenderId: "1077380246409",
+        appId: "1:1077380246409:web:911132936febd6b06d8f58",
+        measurementId: "G-77FN4XTZ0N"
+    };
+    firebase.initializeApp(firebaseConfig);
+</script>
+
+<script type="text/javascript">
+    function uploadImage(e) {
+        let fbBucketName = 'images';
+        let uploader = document.getElementById('uploader');
+        let file = e.target.files[0];
+        let storageRef = firebase.storage().ref(`${fbBucketName}/${file.name}`);
+        let uploadTask = storageRef.put(file);
+        uploadTask.on(firebase.storage.TaskEvent.STATE_CHANGED,
+            function (snapshot) {
+                uploader.value = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
+                switch (snapshot.state) {
+                    case firebase.storage.TaskState.PAUSED:
+                        break;
+                    case firebase.storage.TaskState.RUNNING:
+                        break;
+                }
+            }, function (error) {
+                switch (error.code) {
+                    case 'storage/unauthorized':
+                        break;
+                    case 'storage/canceled':
+                        break;
+                    case 'storage/unknown':
+                        break;
+                }
+            }, function () {
+                let downloadURL = uploadTask.snapshot.downloadURL;
+                document.getElementById('imgDiv').innerHTML = `<img src="${downloadURL}" alt="">`
+                localStorage.setItem('image', downloadURL);
+                document.getElementById('image').value = downloadURL
+            });
+    }
+</script>
+
+<!--================End Contact Success and Error message Area =================-->
+<%- include('../partial/endHeader') %>
+<!-- End footer Area -->
+<%- include('../partial/javacript') %>
+
+</body>
+
+</html>

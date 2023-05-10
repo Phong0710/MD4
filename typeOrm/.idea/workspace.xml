@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="08359970-5cae-4f03-8d0a-52c01119542e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../RESful_API/src/middleware/auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../RESful_API/src/middleware/auth.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../case1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case1/dist/src/controller/productController.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../case1/dist/src/controller/productController.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case1/dist/src/controller/productController.js" beforeDir="false" afterPath="$PROJECT_DIR$/../case1/dist/src/controller/productController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case1/dist/src/controller/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/../case1/dist/src/controller/userController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case1/dist/src/entity/user.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../case1/dist/src/entity/user.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case1/dist/src/entity/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/../case1/dist/src/entity/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case1/dist/src/router/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/../case1/dist/src/router/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case1/dist/src/service/productService.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../case1/dist/src/service/productService.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case1/dist/src/service/productService.js" beforeDir="false" afterPath="$PROJECT_DIR$/../case1/dist/src/service/productService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case1/dist/src/service/userService.js" beforeDir="false" afterPath="$PROJECT_DIR$/../case1/dist/src/service/userService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case1/dist/tsconfig.build.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/../case1/dist/tsconfig.build.tsbuildinfo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0c4cbadf-e5b1-4490-8e23-74aa5c9b8e27.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0c4cbadf-e5b1-4490-8e23-74aa5c9b8e27.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Ou5HIQ55Q3SPSQCpNvTkwf0c1o" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/nodejs/MD4/case1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "D:\\nodejs\\MD4\\typeOrm\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\nodejs\MD4\typeOrm\public\img" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="08359970-5cae-4f03-8d0a-52c01119542e" name="Changes" comment="" />
+      <created>1682397536801</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682397536801</updated>
+      <workItem from="1682397538026" duration="12639000" />
+      <workItem from="1682435681093" duration="5073000" />
+      <workItem from="1682471078451" duration="6389000" />
+      <workItem from="1682478234059" duration="24551000" />
+      <workItem from="1682559297295" duration="26652000" />
+      <workItem from="1682647134448" duration="2879000" />
+      <workItem from="1683099644036" duration="958000" />
+      <workItem from="1683253621406" duration="59000" />
+      <workItem from="1683259686415" duration="212000" />
+      <workItem from="1683259962313" duration="72000" />
+      <workItem from="1683260503033" duration="149000" />
+      <workItem from="1683271695345" duration="506000" />
+      <workItem from="1683275424122" duration="17000" />
+      <workItem from="1683448257253" duration="1564000" />
+      <workItem from="1683451432012" duration="202000" />
+      <workItem from="1683713127844" duration="402000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

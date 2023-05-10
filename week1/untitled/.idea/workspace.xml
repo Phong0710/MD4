@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="db39a26d-5e62-4189-b574-7e6026096b39" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/css/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/img/carousel-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/img/carousel-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/img/cat-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/img/cat-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/img/cat-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/img/cat-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/img/cat-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/img/cat-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/img/offer-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/img/offer-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/img/payments.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/img/product-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/img/product-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/img/product-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/img/product-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/img/product-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/img/product-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/img/product-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/img/product-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/img/user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/img/vendor-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/img/vendor-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/img/vendor-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/img/vendor-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/img/vendor-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/img/vendor-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/img/vendor-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/img/vendor-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/lib/easing/easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/lib/easing/easing.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/lib/owlcarousel/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/lib/owlcarousel/assets/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/lib/owlcarousel/assets/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/lib/owlcarousel/assets/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/lib/owlcarousel/assets/owl.theme.default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/lib/owlcarousel/assets/owl.theme.default.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/lib/owlcarousel/assets/owl.theme.green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/lib/owlcarousel/assets/owl.theme.green.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/lib/owlcarousel/assets/owl.video.play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/lib/owlcarousel/owl.carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/lib/owlcarousel/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/mail/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/mail/contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/mail/jqBootstrapValidation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/_button-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/_close.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/_code.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/_custom-forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/_images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/_jumbotron.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/_media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/_modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/_popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/_print.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/_reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/_root.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/_spinners.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/_toasts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/_tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/_transitions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/_type.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/bootstrap-grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/bootstrap-reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/bootstrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/mixins/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/mixins/_background-variant.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/mixins/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/mixins/_border-radius.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/mixins/_box-shadow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/mixins/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/mixins/_caret.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/mixins/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/mixins/_deprecate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/mixins/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/mixins/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/mixins/_gradients.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/mixins/_grid-framework.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/mixins/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/mixins/_hover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/mixins/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/mixins/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/mixins/_lists.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/mixins/_nav-divider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/mixins/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/mixins/_reset-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/mixins/_resize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/mixins/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/mixins/_size.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/mixins/_table-row.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/mixins/_text-emphasis.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/mixins/_text-hide.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/mixins/_text-truncate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/mixins/_transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/mixins/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/utilities/_align.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/utilities/_background.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/utilities/_borders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/utilities/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/utilities/_display.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/utilities/_embed.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/utilities/_flex.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/utilities/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/utilities/_interactions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/utilities/_overflow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/utilities/_position.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/utilities/_screenreaders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/utilities/_shadows.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/utilities/_sizing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/utilities/_spacing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/utilities/_stretched-link.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/utilities/_text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/utilities/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/bootstrap/scss/vendor/_rfs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/public/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/src/view/index.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/tsconfig.build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tổng quan ExpressJS/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BaiThi/CÂu3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BaiThi/Câu 2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BaiThi/Câu1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BaiThi/Câu4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MD2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MD2/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MD2/Week_1/TH1_Spread Attributes trong ES6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MD2/Week_1/TH1_SpreadAttributestrongS6.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MD2/Week_1/TH1_SpreadAttributestrongS6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MD2/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MD2/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MD3/week1/Xử lý đồng bộ 1/TH1_Promise.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MD3/week1/Xử lý đồng bộ 1/TH2_Callback.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MD3/week1/Xử lý đồng bộ 1/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Thuật toán/21_03.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Thuật toán/21_03.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week3/javaS.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4/.idea/week4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4/ANH TRON.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4/BTLT/30.01.2023/001.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4/Bt2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4/LTHDT01/Xây dựng mô tả hình chử nhật.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4/banphim.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week4/tudong.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="2OSW3pY0MHGZjl4k3wnObjUKlhs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/nodejs/MD4/week1/Tổng quan ExpressJS",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db39a26d-5e62-4189-b574-7e6026096b39" name="Changes" comment="" />
+      <created>1681554267533</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681554267533</updated>
+      <workItem from="1681554269092" duration="18000" />
+    </task>
+    <servers />
+  </component>
+</project>
